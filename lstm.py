@@ -419,7 +419,8 @@ elif st.session_state.page == 'Prédictions':
                 'Variation (%)': '{:.2f}%'
             }).background_gradient(subset=['Prix ($)'], cmap='RdYlGn')
             
-            st.dataframe(styled, use_container_width=True, hide_index=True)
+            st.dataframe(styled, width="stretch")
+
             
             # Téléchargement
             csv = resultat.to_csv(index=False)
@@ -456,4 +457,5 @@ st.markdown("""
 <div style='text-align: center; color: #666; padding: 1rem;'>
     <p>🍎 Apple LSTM Predictor</p>
 </div>
+
 """, unsafe_allow_html=True)
