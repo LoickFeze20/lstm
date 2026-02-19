@@ -146,7 +146,7 @@ with st.sidebar:
     # 🔗 LIEN VERS L'AUTRE APPLICATION (NeuralProphet)
     with st.expander("🔗 NeuralProphet"):
         st.markdown("""
-        <a href="https://ton-app-neuralprophet.streamlit.app" target="_blank">
+        <a href="https://neuralprohet-7.streamlit.app" target="_blank">
             <button style="
                 width: 100%;
                 padding: 0.75rem;
@@ -459,3 +459,4 @@ st.markdown("""
 </div>
 
 """, unsafe_allow_html=True)
+
